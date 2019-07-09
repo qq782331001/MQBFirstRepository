@@ -1,0 +1,17 @@
+server:
+  port: 9000
+spring:
+  datasource:
+    username: root
+    password: she987515
+    url: jdbc:mysql://127.0.0.1:3306/manytomany?serverTimezone=GMT%2B8
+    driver-class-name: com.mysql.jdbc.Driver
+  jpa:
+    database: mysql
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+      naming:
+        implicit-strategy: org.hibernate.boot.model.naming.ImplicitNamingStrategyJpaCompliantImpl
+        physical-strategy: org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl
+
