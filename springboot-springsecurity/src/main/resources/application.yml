@@ -1,0 +1,13 @@
+server:
+  port: 8090
+spring:
+  thymeleaf:
+    cache: false
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    username: root
+    password: she987515
+    url: jdbc:mysql:///security_demo
+mybatis:
+  type-aliases-package: com.mqb.springbootspringsecurity.pojo
+  mapper-locations: classpath:mapper/*.xml
